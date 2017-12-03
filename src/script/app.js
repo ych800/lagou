@@ -1,1 +1,1 @@
-console.log('app.js');
+angular.module('app',['ui.router']);
