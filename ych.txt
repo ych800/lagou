@@ -1,2 +1,0 @@
-﻿name :'ych'
-email:'ych@ych.com'
