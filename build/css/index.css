@@ -1,6 +1,77 @@
-a {
-  color: red;
+/*iphone 6 模型*/
+/***** define common class less *****/
+.fl {
+  float: left;
 }
-div {
+.fr {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+.tl {
+  text-align: left;
+}
+.tr {
+  text-align: right;
+}
+.tc {
+  text-align: center;
+}
+.vm {
+  vertical-align: middle;
+}
+.pr {
+  position: relative;
+}
+.pa {
+  position: absolute;
+}
+.di {
+  display: inline-block;
+}
+.db {
+  display: block;
+}
+/** page colors style **/
+/******  define common fn less *******/
+/*page*/
+/*app-header*/
+.header {
+  height: 1.06666667rem;
+  color: #fff;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  background-color: #00b38a;
+}
+.header .icon {
+  margin-top: 0.10666667rem;
+}
+.header .icon.icon-back {
+  width: 0.88rem;
+  height: 0.88rem;
+  /**background-image:url(@{baseUrl}+'icon2.png');**/
+  background-image: url('../image/icon2.png');
+  background-repeat: no-repeat;
+  background-position: 0rem -1.06666667rem;
+  background-size: 13.33333333rem 13.33333333rem;
+}
+.header .title {
+  font-size: 20px;
+  line-height: 1.06666667rem;
+}
+[data-dpr="2"] .header .title {
+  font-size: 40px;
+}
+[data-dpr="3"] .header .title {
+  font-size: 60px;
+}
+* {
   margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
