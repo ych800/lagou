@@ -1,0 +1,58 @@
+/******  define common fn less *******/
+
+.fs(@px:12){
+  font-size: unit(@px,px);
+
+  [data-dpr="2"] &{
+  	font-size: unit(@px * 2 ,px);
+  }
+  [data-dpr="3"] &{
+  	font-size: unit(@px * 3,px);
+  }
+}
+
+.h(@height){
+  height:unit(@height/@rem,rem);
+}
+
+.lh(@px){
+  line-height: unit(@px/@rem,rem);
+}
+
+.w(@width){
+  width:unit(@width/@rem,rem);
+}
+
+.pr(@px){
+	padding-right: unit(@px/@rem,rem);
+}
+.pl(@px){
+	padding-left: unit(@px/@rem,rem);
+}
+.pt(@px){
+	padding-top: unit(@px/@rem,rem);
+}
+.pb(@px){
+	padding-bottom: unit(@px/@rem,rem);
+}
+
+.mr(@px){
+	margin-right:unit(@px/@rem,rem);
+}
+.ml(@px){
+	margin-left:unit(@px/@rem,rem);
+}
+.mt(@px){
+	margin-top:unit(@px/@rem,rem);
+}
+.mb(@px){
+	margin-bottom:unit(@px/@rem,rem);
+}
+
+
+//background
+.bg(@name,@x,@y){
+  background-image:url({@baseUrl}+@name);
+  background-repeat: no-repeat;
+  background-position: unit(@x/@rem,rem) unit(@y/@rem,rem);
+}
