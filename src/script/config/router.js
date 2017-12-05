@@ -7,5 +7,49 @@ angular.module('app').config(['$stateProvider','$urlRouterProvider',function ($s
         url:'/main',
         templateUrl:'view/tpl/main.html',
         controller:'mainCtrl'
+    }).state('search',{
+    	url:'/search',
+    	templateUrl:'view/tpl/search.html',
+    	controller:'searchCtrl'
+    }).state('me',{
+    	url:'/me',
+    	templateUrl:'view/tpl/me.html',
+    	controller:'meCtrl'
+    }).state('positionDetail',{
+    	url:'/positionDetail:id',
+    	templateUrl:'view/tpl/positionDetail.html',
+    	controller:'positionDetailCtrl'
     })
+
+    //登录
+    .state('login',{
+        url:'/login',
+        templateUrl:'view/tpl/login.html',
+        controller:'loginCtrl'
+    })
+    //定制
+    .state('customForPosition',{
+        url:'/customForPosition',
+        templateUrl:'view/tpl/customForPosition.html',
+        controller:'customForPositionCtrl'
+    }).state('customForCity',{
+        url:'/customForCity',
+        templateUrl:'view/tpl/customForCity.html',
+        controller:'customForCityCtrl'
+    }).state('customForSalary',{
+        url:'/customForSalary',
+        templateUrl:'view/tpl/customForSalary.html',
+        controller:'customForSalaryCtrl'
+    }).state('customForCompany',{
+        url:'/customForCompany',
+        templateUrl:'view/tpl/customForCompany.html',
+        controller:'customForCompanyCtrl'
+    }).state('customForSearch',{
+        url:'/customForSearch',
+        templateUrl:'view/tpl/customForSearch.html',
+        controller:'customForSearchCtrl'
+    })
+
+
+
 }]);
