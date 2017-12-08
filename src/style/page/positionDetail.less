@@ -1,0 +1,163 @@
+/** positionDetail **/
+
+.topWhite{
+	.h(40);
+	width:100%;
+}
+
+.stationInfo{
+	border-bottom:2px solid @borderColor;
+	.top{
+		.h(48);
+		.pr(13);
+		.pl(13);
+		box-sizing:border-box;
+		border-bottom:3px solid @borderColor;
+		.jobTitle {
+			.fs(20);
+			font-weight:700;
+			color:#000;
+			.lh(48);
+		}
+		.status{
+			.h(48);
+			box-sizing:border-box;
+			.pt(5);
+			.pb(5);
+			.mr(10);
+			.icon-collection{
+				color:@starColor;
+			}
+			span{
+				color:@fontGray;
+			}
+		}
+	}
+
+	.base_list{
+		width:100%;
+		display:flex;
+		box-sizing:border-box;
+		display:-webkit-flex;
+		flex-flow:row wrap;
+		.pr(13);
+		.pl(13);
+		.fs(14);
+		.item{
+			width:33.3%;
+			.mb(10);
+			.mt(10);
+			.icon{
+				color:@footerActiveColor;
+			}
+		}
+	}
+
+	.jobTempt{
+		.pr(13);
+		.pl(13);
+		.mb(13);
+		color:@fontGray;
+	}
+}
+
+.componyInfo{
+	.pr(13);
+	.pl(13);
+	.pt(15);
+	.pb(15);
+	overflow:hidden;
+	.item{
+		&.col_right{
+			.w(60);	
+			img{
+				.w(25);
+				.h(28);
+				.mt(10);
+			}
+		}
+		&.col_left{
+			.w(60);
+			.h(60);	
+			.mr(10);
+			img{
+				.w(60);
+				.h(60);
+			}
+		}
+		&.col_center{
+			.w(217);
+			.compony{
+				color:@footerActiveColor;
+				.fs(18);
+				font-weight:300;
+				.mt(3);
+				.mb(3);
+			}
+			.base{
+				.mr(15);
+				color:@fontGray;
+				.fs(13);
+			}
+		}
+	}
+}
+
+.stationDescribe{
+	.title{
+		.h(37);
+		.lh(37);
+		color:@footerActiveColor;
+		background-color:@titleBg;
+		font-weight:300;
+		.pl(13);
+		.fs(16);
+	}
+	.note{
+		color:#555;
+		.pr(15);
+		.pl(15);
+		.mt(20);
+		.mb(20);
+		.lh(16);
+		font-weight:700;
+	}
+	.list{
+		.mt(10);
+		.pr(15);
+		.pl(15);
+		color:@fontGray;
+		.fs(14);
+		.item{
+			h5{
+				.mt(7);
+				.mb(7);
+			}
+			p{
+				.lh(18);
+			}
+		}
+	}
+}
+
+.footerBar{
+	position:fixed;
+	right:0;
+	bottom:0;
+	box-sizing:border-box;
+	.h(70);
+	background-color:rgba(255,255,255,.2);
+	width:100%;
+	.pr(15);
+	.pl(15);
+	.pt(13);
+	.text{
+		.h(45);
+		.lh(45);
+		.fs(16);
+		color:#fff;
+		background-color:@btnGreen;
+		font-weight:300;
+		border-radius:unit(6/@rem,rem);
+	}
+}

@@ -1,0 +1,17 @@
+<div class="login">
+	<form class="form">
+		<div class="form_item name  clear">
+			<input class="fl" type="text" name="name" ng-modal="user.name" placeholder="手机号">
+			<span class="error fl" ng-hide="true">请输入用户名!</span>
+		</div>
+		<div class="form_item pwd clear">
+			<input class="fl" type="password" name="pwd" ng-modal="user.pwd" placeholder="密码">
+			<span class="error fl" ng-hide="true">请输入用户名!</span>	
+			<span class="icon icon-eye fr"></span>
+		</div>
+
+		<button class="signIn btn tc">登录</button>
+		<p class="tip">还没有账号?</p>
+		<button class="register btn tc" ui-sref="register">注册</button>
+	</form>
+</div>

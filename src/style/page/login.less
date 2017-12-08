@@ -1,0 +1,76 @@
+.login{
+	height:100%;
+	width:100%;
+	box-sizing:border-box;
+	background-color:@headerBg;
+	/**.pr(20);
+	.pl(20);**/
+	.pt(20);
+
+	.form{
+		width:90%;
+		margin:0 auto;
+		.form_item{
+			width:100%;
+			.h(60);
+			.lh(60);
+			.fs(14);
+			background-color:#fff;
+			&.name{
+				border-top-left-radius:unit(8/@rem,rem);
+				border-top-right-radius:unit(8/@rem,rem);
+				border-bottom:unit(2/@rem,rem) solid @borderColor;
+			}
+			&.pwd{
+				border-bottom-left-radius:unit(8/@rem,rem);
+				border-bottom-right-radius:unit(8/@rem,rem);
+			}
+			input{
+				.h(60);
+				.lh(60);
+				.w(180);
+				border:0;
+				.ml(8);
+			}
+			.error{
+				color:red;
+			}
+			.icon-eye{
+				.mr(5);
+				.fs(22);
+				font-weight:300;
+				color:@fontGray;
+			}
+		}
+
+		.btn{
+			width:100%;
+			.h(60);
+			.lh(60);
+			box-sizing:border-box;
+			border:0;
+			border-radius:unit(8/@rem,rem);
+			.fs(18);
+			box-sizing:border-box;
+			font-weight:300;
+			&.signIn{
+				.mt(20);
+				.mb(20);
+				color:#fff;
+				background-color:@btnGreen;
+			}
+			&.register{
+				padding:0;
+				color:@footerActiveColor;
+				border:unit(1/@rem,rem) solid @btnGreen;
+				background-color:transparent;
+			}
+		}
+		
+		.tip{
+			color:@btnGreen;
+			.fs(14);
+			.mb(10);
+		}
+	}
+}

@@ -1,0 +1,105 @@
+.register{
+	height:100%;
+	width:100%;
+	box-sizing:border-box;
+	background-color:@headerBg;
+	.pt(20);
+
+	.form{
+		width:90%;
+		margin:0 auto;
+		.item{
+			width:100%;
+			.h(60);
+			.lh(60);
+			background-color:#fff;
+			border-radius:unit(8/@rem,rem);
+			.fs(14);
+			.mb(10);
+			input{
+				.h(60);
+				.lh(60);
+				border:0;
+				.ml(8);
+			}
+			.error{
+				color:red;
+				.fs(14);
+				.ml(8);
+			}
+			.icon-eye{
+				.mr(5);
+				.fs(22);
+				font-weight:300;
+				color:@fontGray;
+			}
+			&.code{
+				background-color:transparent;
+				input{
+					.h(43);
+					.lh(43);
+					.w(115);
+					.ml(0);
+				}
+				.change{
+					.lh(45);
+					.ml(10);
+				}
+			}
+
+			&.messageCode{
+				input{
+					.w(85);
+				}
+				.btn {
+					.h(28);
+					.lh(28);
+					.mr(15);
+					.mt(13);
+					box-sizing:border-box;
+					background-color:transparent;
+					.pr(12);
+					.pl(12);
+					border-radius:unit(5/@rem,rem);
+					.fs(14);
+					border:unit(1/@rem,rem) solid @borderColor;
+					color:@fontGray;
+				}
+			}
+		}
+
+		>.btn{
+			width:100%;
+			.h(60);
+			.lh(60);
+			box-sizing:border-box;
+			border:0;
+			border-radius:unit(8/@rem,rem);
+			.fs(18);
+			box-sizing:border-box;
+			font-weight:300;
+			&.signIn{
+				padding:0;
+				color:@footerActiveColor;
+				border:unit(1/@rem,rem) solid @btnGreen;
+				background-color:transparent;
+			}
+			&.register{
+				padding:0;
+				.mt(20);
+				.mb(20);
+				color:#fff;
+				background-color:@btnGreen;
+			}
+		}
+
+		.tip{
+			color:@btnGreen;
+			.fs(14);
+			.mb(10);
+			&.agreement{
+				.mt(10);
+			}
+		}
+	}
+}

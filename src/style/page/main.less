@@ -1,0 +1,150 @@
+/*app-header*/
+.header{
+	.h(40);
+	position:fixed;
+	width:100%;
+	box-sizing:border-box;
+	left:0;
+	top:0;
+	color:@wc;
+	.pl(15);
+	.pr(15);
+	background-color:@headerBg;
+
+	.icon{
+		.mt(10);
+		.w(22);
+		.h(18);
+		.lh(18);
+		.fs(22);
+		color:@wc;
+		
+		&.icon-back{
+			
+		}
+
+		&.icon-home{
+
+		}
+	}
+
+	.title{
+		.fs(20);
+		.lh(40);
+	}
+	
+}
+
+/** app-footer **/
+.footer{
+	.h(46);
+	.lh(46);
+	width:100%;
+	position:fixed;
+	bottom:0;
+	left:0;
+	background-color:@footerBg;
+
+	//弹性盒模型
+	display:flex;
+	display:-webkit-flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	justify-content:space-between;
+
+	.item{
+		align-items:flex-start;
+		flex-grow:4;
+		color:@footerColor;
+		&.active{
+			background-color:@footerActiveBg;
+			color:@footerActiveColor;
+		}
+		span{
+			.fs(16);
+		}
+	}
+}
+
+/** 定制 **/
+.custom{
+	.pr(16);
+	.pl(16);
+	.h(44);
+	.lh(44);
+	position:fixed;
+	width:100%;
+	box-sizing:border-box;
+	left:0;
+	top:unit(40/@rem,rem);
+	background-color:#fff;
+	.fs(14);
+
+
+	.btn{
+		.mt(7);
+		.w(82);
+		.h(30);
+		.lh(30);
+		border:0;
+		.fs(16);
+		border-radius:unit(30/@rem,rem);
+		background-color:@btnGray;
+		color:@footerActiveColor;
+		font-weight:500;
+	}
+}
+
+/** 留白 **/
+.whiteSpace{
+	.pt(87);
+}
+
+/** 职位列表 **/
+.position{
+	.mb(48);
+	border-top:unit(3/@rem,rem) solid #ccc;
+
+	background-color:#fff;
+	.list{
+		.item{
+			.pt(14);
+			.pr(14);
+			.pl(14);
+			overflow:hidden;
+			box-sizing:border-box;
+			border-bottom:1px solid @borderColor;
+			.mb(2);
+			img{
+				.w(60);
+				.h(60);
+				.mr(10);
+			}
+			.info{
+				.compony{
+					.mt(6);
+					.mb(6);
+					.fs(18);
+				}
+				.date{
+					.mt(5);
+					.mb(5);
+					color:@footerColor;
+				}
+				.job{
+					.mt(5);
+				}
+			}
+		}
+
+		.salary{
+			.lh(69);
+			.fs(16);
+			color:@footerActiveColor;
+		}
+	}
+		
+}
+
+
+

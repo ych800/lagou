@@ -1,0 +1,52 @@
+.searchBox{
+	position:fixed;
+	top:unit(40/@rem,rem);
+	left:0;
+	.h(45);
+	.lh(45);
+	.fs(14);
+	width:100%;
+	box-sizing:border-box;
+	background-color:#fff;
+
+	display:flex;
+	display:-webkit-flex;
+	flex-flow:row nowrap;
+
+	.city{
+		flex:1 0 auto;
+		border-right:unit(1/@rem,rem) solid @borderColor;
+	}
+	.search{
+		flex:3 1 auto;
+		.pl(15);	
+		.pl(15);
+		input{
+			border:0;
+			.h(45);
+			.lh(45);
+		}
+		.icon-search{
+			.fs(20);
+			.w(30);
+			color:@fontGray;
+		}
+	}
+
+}
+
+.searchHistoryKey{
+	.list{
+		.h(45);
+		.lh(45);
+		.pr(18);
+		.pl(25);
+		background-color:@footerBg;
+		.fs(14);
+		border-top:unit(1/@rem,rem) solid @borderColor;
+		border-bottom:unit(1/@rem,rem) solid @borderColor;
+		.icon-close{
+			color:@fontGray;
+		}
+	}
+}

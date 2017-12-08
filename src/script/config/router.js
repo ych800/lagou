@@ -27,6 +27,12 @@ angular.module('app').config(['$stateProvider','$urlRouterProvider',function ($s
         templateUrl:'view/tpl/login.html',
         controller:'loginCtrl'
     })
+    //注册
+    .state('register',{
+        url:'/register',
+        templateUrl:'view/tpl/register.html',
+        controller:'registerCtrl'
+    })
     //定制
     .state('customForPosition',{
         url:'/customForPosition',
