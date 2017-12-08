@@ -1,1 +1,7 @@
-
+<div class="custom">
+	<span class="text fl">10秒钟定制职位</span>
+	<button class="btn fr tc" ui-sref="custom" ng-click="custom(isLogin)">
+		<i ng-if="isLogin" class="icon icon-edit"></i>
+		<span ng-bind="isLogin?'编辑':'去登陆'"></span>
+	</button>
+</div>
