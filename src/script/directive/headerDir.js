@@ -9,7 +9,6 @@ angular.module('app').directive('appHeader',['$state',function($state){
 			titleText:'@'
 		},
 		link:function(scope,elem,attrs){
-
 			scope.titleText = scope.titleText;
 			
 			scope.goBack = function(){

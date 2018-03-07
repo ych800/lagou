@@ -9,14 +9,35 @@ angular.module('app').config(['$stateProvider','$urlRouterProvider',function ($s
         controller:'mainCtrl'
     }).state('search',{
     	url:'/search',
-    	templateUrl:'view/tpl/search.html',
-    	controller:'searchCtrl'
+        views:{
+            '':{
+                templateUrl:'view/tpl/search.html',
+                controller: function($state){
+                    $state.go('search.index');
+                }
+            }
+        }
+    	//controller:'searchCtrl'
+    }).state('search.index',{
+        url:'/index',
+        templateUrl:'view/tpl/component/searchIndex.html',
+        controller:'searchCtrl',
+        params:{
+            type:'searchIndex'
+        }
+    }).state('search.city',{
+        url:'/city',
+        templateUrl:'view/tpl/component/searchCity.html',
+        controller:'searchCtrl',
+        params:{
+            type:'searchCity'
+        }
     }).state('me',{
     	url:'/me',
     	templateUrl:'view/tpl/me.html',
     	controller:'meCtrl'
     }).state('positionDetail',{
-    	url:'/positionDetail:id',
+    	url:'/positionDetail/:id',
     	templateUrl:'view/tpl/positionDetail.html',
     	controller:'positionDetailCtrl'
     })
@@ -55,7 +76,12 @@ angular.module('app').config(['$stateProvider','$urlRouterProvider',function ($s
         templateUrl:'view/tpl/customForSearch.html',
         controller:'customForSearchCtrl'
     })
-
+    //city
+    .state('city',{
+        url:'/city',
+        templateUrl:'view/tpl/city.html',
+        controller:'cityCtrl'
+    }) 
 
 
 }]);

@@ -1,12 +1,12 @@
 <div class="componyInfo clear">
 	<div class="item fl col_left">
-		<img src="image/compony1.jpg">
+		<img ng-src="{{comBase.componyImg}}">
 	</div>
 	<div class="item fl col_center">
-		<h1 class="compony">天猫</h1>
-		<span class="base">移动互联网,电子商务/上市公司/2000人以上</span>
+		<h1 class="compony" ng-bind="comBase.componyName"></h1>
+		<span class="base" ng-bind="comBase.industry+'/'+comBase.property+'/'+comBase.componyScale"></span>
 	</div>
 	<div class="item fr col_right tr">
-		<img class="attestation" src="image/compony1.jpg">
+		<img class="attestation" ng-show="comBase.isAuthentication" ui-src="{{comBase.componyImg}}">
 	</div>
 </div>

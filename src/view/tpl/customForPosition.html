@@ -1,2 +1,12 @@
 <!-- 头部 -->
 <div app-header back="isBack" title-text="设置定制信息"></div>
+
+<div custom-top-title title-text="“想找什么职位?”"></div>
+<div class="headerFillBlock"></div>
+<!-- 定制职位搜索 -->
+<div class="customJobSearch">
+	<input type="text" name="customjob" ng-model="customjob" placeholder="输入你想定制的职位">
+	<span class="sure tc">ok</span>
+</div>
+
+<div app-custom-options list="salary"></div>

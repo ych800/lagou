@@ -21,6 +21,8 @@
     "angular": "1.5.8"
   },
   "devDependencies": {
-    "angular-ui-router": "^1.0.11"
+    "angular-ui-router": "^1.0.11",
+    "angular-cookies": "1.5.8",
+    "underscore": "^1.8.3"
   }
 }
