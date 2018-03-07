@@ -1,0 +1,30 @@
+.appCityList{
+	.all{
+		.pb(45);
+		.item{
+			
+			.citytype{
+				.pl(10);
+				.h(25);
+				.lh(25);
+				border-top:unit(1/@rem,rem) solid @borderColor;
+				border-bottom:unit(1/@rem,rem) solid @borderColor;
+				color:@fontGray;
+				.fs(14);
+			}
+			.cityList{
+				overflow:hidden;
+				.cityItem{
+					width:33.33%;
+					.pt(20);
+					.pb(20);
+					.fs(16);
+					font-weight:500;
+					&.active{
+						background-color:@footerActiveBg;
+					}
+				}
+			}
+		}
+	}
+}

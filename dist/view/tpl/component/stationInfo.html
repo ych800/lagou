@@ -1,0 +1,33 @@
+<div class="stationInfo">
+	<div class="top clear">
+		<h1 class="jobTitle fl" ng-bind="positionItem.position"></h1>
+		<div class="status fr tc">
+			<i class="icon" ng-class="{'icon-collection_fill':collectCode=='0','icon-collection':collectCode !='0'}"></i>
+			<br/>
+			<span ng-bind="collectCode =='0' ? '收藏':'未收藏'"></span>
+		</div>
+	</div>
+	<ul class="base_list">
+		<li class="item tl">
+			<i class="icon icon-rmb"></i>
+			<span ng-bind="positionItem.salary"></span>
+		</li>
+		<li class="item tc">
+			<i class="icon icon-point"></i>
+			<span ng-bind="positionItem.city"></span>
+		</li>
+		<li class="item tr">
+			<i class="icon icon-time"></i>
+			<span ng-bind="positionItem.positionType"></span>
+		</li>
+		<li class="item tl">
+			<i class="icon icon-work_duration"></i>
+			<span ng-bind="positionItem.workingLife"></span>
+		</li>
+		<li class="item tc">
+			<i class="icon icon-education"></i>
+			<span ng-bind="positionItem.education"></span>
+		</li>
+	</ul>
+	<p class="jobTempt" ng-bind="'职位诱惑:'+positionItem.attract"></p>
+</div>

@@ -1,0 +1,13 @@
+<div class="stationDescribe">
+	<div ng-repeat="item in positionDescribe">
+		<h1 class="title" ng-bind="item.title"></h1>
+		<p class="note" ng-bind="item.note"></p>
+		<ul class="list">
+			<li class="item" ng-repeat="o in positionDescribe[$index].describe">
+				<h5 ng-bind="o.tip"></h5>
+				<p ng-bind-html="o.detail | html">
+				</p>
+			</li>
+		</ul>
+	</div>	
+</div>

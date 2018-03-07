@@ -1,0 +1,15 @@
+<!-- 头部 -->
+<div app-header title-text="拉勾网"></div>
+<!-- 留白 -->
+<div class="whiteSpace"></div>
+<!-- 搜索框 -->
+<div app-search-box city="{{currentCity}}"></div>
+
+<!-- 设置定制条件 -->
+<div set-custom-default ng-show="!positionList.length"></div>
+
+<!-- 历史搜索 -->
+<div search-history-key data="historyList"></div>
+
+<!-- 搜索列表 -->
+<div app-position data="positionList" ng-show="positionList.length"></div>

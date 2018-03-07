@@ -1,0 +1,48 @@
+/** 职位列表 **/
+.position{
+	.mb(48);
+	border-top:unit(3/@rem,rem) solid #ccc;
+
+	background-color:#fff;
+	.list{
+		.item{
+			.pt(14);
+			.pr(14);
+			.pl(14);
+			overflow:hidden;
+			box-sizing:border-box;
+			border-bottom:1px solid @borderColor;
+			.mb(2);
+			&.active{
+				background-color:@btnGray;
+			}
+			img{
+				.w(60);
+				.h(60);
+				.mr(10);
+			}
+			.info{
+				.compony{
+					.mt(6);
+					.mb(6);
+					.fs(18);
+				}
+				.date{
+					.mt(5);
+					.mb(5);
+					color:@footerColor;
+				}
+				.job{
+					.mt(5);
+				}
+			}
+		}
+
+		.salary{
+			.lh(69);
+			.fs(16);
+			color:@footerActiveColor;
+		}
+	}
+		
+}

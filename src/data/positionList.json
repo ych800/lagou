@@ -1,0 +1,91 @@
+[
+	{
+		"componyImg":"../../image/compony3.png",
+		"componyId":"xc001",
+		"componyName":"携程",
+		"salary":"8K-12K",
+		"position":"WBE前端工程师",
+		"positionId":"0",
+		"city":"上海",
+		"date":"2017-09-11"
+	},
+	{
+		"componyImg":"../../image/compony2.jpg",
+		"componyId":"bd001",
+		"componyName":"西安博大软件",
+		"salary":"3K-5K",
+		"position":"网络实施工程师",
+		"positionId":"1",
+		"city":"西安",
+		"date":"今天 9:30"
+	},
+	{
+		"componyImg":"../../image/compony1.jpg",
+		"componyId":"yh001",
+		"componyName":"易幻网络",
+		"salary":"2K-4K",
+		"position":"校招-行政实习生",
+		"positionId":"2",
+		"city":"广州",
+		"date":"2017-12-10 10:21"
+	},
+	{
+		"componyImg":"../../image/compony3.png",
+		"componyId":"xc001",
+		"componyName":"携程",
+		"salary":"8K-12K",
+		"position":"WBE前端工程师",
+		"positionId":"3",
+		"city":"上海",
+		"date":"2017-09-11"
+	},
+	{
+		"componyImg":"../../image/compony2.jpg",
+		"componyId":"bd001",
+		"componyName":"西安博大软件",
+		"salary":"3K-5K",
+		"position":"网络实施工程师",
+		"positionId":"4",
+		"city":"西安",
+		"date":"今天 9:30"
+	},
+	{
+		"componyImg":"../../image/compony1.jpg",
+		"componyId":"yh001",
+		"componyName":"易幻网络",
+		"salary":"2K-4K",
+		"position":"校招-行政实习生",
+		"positionId":"5",
+		"city":"广州",
+		"date":"2017-12-10 10:21"
+	},{
+		"componyImg":"../../image/compony3.png",
+		"componyId":"xc001",
+		"componyName":"携程",
+		"salary":"8K-12K",
+		"position":"WBE前端工程师",
+		"positionId":"6",
+		"city":"上海",
+		"date":"2017-09-11"
+	},
+	{
+		"componyImg":"../../image/compony2.jpg",
+		"componyId":"bd001",
+		"componyName":"西安博大软件",
+		"salary":"3K-5K",
+		"position":"网络实施工程师",
+		"positionId":"7",
+		"city":"西安",
+		"date":"今天 9:30"
+	},
+	{
+		"componyImg":"../../image/compony1.jpg",
+		"componyId":"yh001",
+		"componyName":"易幻网络",
+		"salary":"2K-4K",
+		"position":"校招-行政实习生",
+		"positionId":"8",
+		"city":"广州",
+		"date":"2017-12-10 10:21"
+	}
+]

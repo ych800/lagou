@@ -1,0 +1,14 @@
+<div class="position">
+	<ul class="list">
+		<!-- <li class="item clear {{item.viewed?'active':''}}" ng-repeat="item in data" ui-sref="positionDetail({'id':item.componyId})"> -->
+		<li class="item clear {{item.viewed?'active':''}}" ng-repeat="item in data" ng-click="goPositionDetail(item)">
+			<img class="fl" ng-src="{{item.componyImg}}">
+			<div class="fl info">
+				<h3 class="compony" ng-bind="item.componyName"></h3>
+				<p class="job" ng-bind="item.position + '['+ item.city+']' "></p>
+				<p class="date" ng-bind="item.date"></p>
+			</div>
+			<span class="salary fr"ng-bind="item.salary"></span>
+		</li>
+	</ul>
+</div>

@@ -1,0 +1,11 @@
+
+<div class="appCityList">
+	<ul class="all">
+		<li class="item" ng-repeat="o in data">
+			<p class="citytype" ng-bind="o.type"></p>
+			<ul class="cityList tc">
+				<li class="cityItem fl {{item.selected?'active':''}}" ng-repeat="item in data[$index].list" ng-bind="item.name" ng-click="selectCity(item,$event)"></li>
+			</ul>
+		</li>
+	</ul>
+</div>

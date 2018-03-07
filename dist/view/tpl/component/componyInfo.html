@@ -1,0 +1,12 @@
+<div class="componyInfo clear">
+	<div class="item fl col_left">
+		<img ng-src="{{comBase.componyImg}}">
+	</div>
+	<div class="item fl col_center">
+		<h1 class="compony" ng-bind="comBase.componyName"></h1>
+		<span class="base" ng-bind="comBase.industry+'/'+comBase.property+'/'+comBase.componyScale"></span>
+	</div>
+	<div class="item fr col_right tr">
+		<img class="attestation" ng-show="comBase.isAuthentication" ui-src="{{comBase.componyImg}}">
+	</div>
+</div>

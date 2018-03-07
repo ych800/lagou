@@ -1,0 +1,42 @@
+<div class="register">
+	<form class="form" name="register">
+		<div class="item clear">
+			<input class="fl" type="text" name="phoneNum" 
+			placeholder="手机号" 
+			ng-modal="user.phoneNum">
+			<span class="fl error">手机号码不能为空</span>
+		</div>
+		<div class="item clear">
+			<input class="fl" type="text" name="code" 
+			placeholder="请证明你不是机器人" 
+			ng-modal="user.code">
+			<span class="fl error">验证码错误</span>
+		</div>
+		<div class="item clear code">
+			<input class="fl" type="text" name="baseCode"  readonly="true" 
+			placeholder="短信验证码" 
+			ng-modal="user.baseCode">
+			<span class="change fl">看不清, <a href="" ng-click="">换一张</a></span>
+		</div>
+		<div class="item clear messageCode">
+			<input class="fl" type="text" name="messageCode" 
+			placeholder="短信验证码" 
+			ng-modal="user.messageCode">
+			<span class="error fl">验证码必须是数字</span>
+			<button class="btn fr tc" ng-click="getMessageCode()" ng-bind="isTimeOut?'重新发送':'获取'"></button>
+			<span class="timeCount" ng-show='hasMessageCode'>还有60秒</span>
+		</div>
+		<div class="item clear">
+			<input class="fl" type="text" name="pwd" 
+			placeholder="设置6-16位密码" 
+			ng-modal="user.pwd">
+			<span class="fl error">密码错误!</span>
+			<span class="icon icon-eye fr"></span>
+		</div>
+
+		<button type="button" class="btn register">注册</button>
+		<p class="tip">已有账号?</p>
+		<button type="button" class="btn signIn" ui-sref="login">登录</button>
+		<p class="agreement tip">点击登录,即代表您同意<a href=""><<拉钩用户协议>></a></p>
+	</form>
+</div>

@@ -1,0 +1,227 @@
+[
+	{
+		"componyImg":"../../image/compony3.png",
+		"componyId":"xc001",
+		"componyName":"携程",
+		"city":"上海",
+		"industry":"移动互联网,数据服务",
+		"componyScale":"100-300人",
+		"positionType":[
+			{"name":"技术","id":"1"},
+			{"name":"产品","id":"2"},
+			{"name":"设计","id":"3"},
+			{"name":"运营","id":"4"},
+			{"name":"市场与销售","id":"5"},
+			{"name":"职能","id":"6"},
+			{"name":"金融","id":"6"}
+		],
+		"positionList":[
+			{
+				"componyId":"bd001",
+				"id":"1",
+				"salary":"2K-4K",
+				"position":"校招-行政实习生",
+				"city":"广州",
+				"date":"2017-12-10 10:21"
+			},
+			{
+				"componyId":"bd001",
+				"id":"1",
+				"salary":"6K-8K",
+				"position":"Java软件开发工程师",
+				"city":"双休,工作地点广州",
+				"date":"2017-11-10 13:21"
+			},
+			{
+				"componyId":"bd001",
+				"id":"1",
+				"salary":"2K-4K",
+				"position":"Java开发工程师",
+				"city":"北京",
+				"date":"2017-12-5 16:30"
+			},
+			{
+				"componyId":"bd001",
+				"id":"2",
+				"salary":"12K-18K",
+				"position":"web前端开发工程师",
+				"city":"广州",
+				"date":"2017-12-10 10:21"
+			},
+			{
+				"componyId":"bd001",
+				"id":"3",
+				"salary":"10K-15K",
+				"position":"web前端开发",
+				"city":"深圳",
+				"date":"2017-12-10 10:21"
+			},
+			{
+				"componyId":"bd001",
+				"id":"4",
+				"salary":"8K-12K",
+				"position":"软件测试工程师",
+				"city":"上海",
+				"date":"2017-12-02 15:11"
+			},
+			{
+				"componyId":"bd001",
+				"id":"5",
+				"salary":"6K-8K",
+				"position":"网络运维",
+				"city":"南京",
+				"date":"今天 8:20"
+			}
+		]
+	},
+	{
+		"componyImg":"../../image/compony1.jpg",
+		"componyId":"yh001",
+		"componyName":"易幻网络",
+		"city":"广州",
+		"industry":"游戏开发,数据服务",
+		"componyScale":"500人以上",
+		"positionType":[
+			{"name":"技术","id":"1"},
+			{"name":"产品","id":"2"},
+			{"name":"设计","id":"3"},
+			{"name":"运营","id":"4"},
+			{"name":"市场与销售","id":"5"},
+			{"name":"职能","id":"6"},
+			{"name":"金融","id":"6"}
+		],
+		"positionList":[
+			{
+				"componyId":"bd001",
+				"id":"1",
+				"salary":"2K-4K",
+				"position":"校招-行政实习生",
+				"city":"广州",
+				"date":"2017-12-10 10:21"
+			},
+			{
+				"componyId":"bd001",
+				"id":"1",
+				"salary":"6K-8K",
+				"position":"Java软件开发工程师",
+				"city":"双休,工作地点广州",
+				"date":"2017-11-10 13:21"
+			},
+			{
+				"componyId":"bd001",
+				"id":"1",
+				"salary":"2K-4K",
+				"position":"Java开发工程师",
+				"city":"北京",
+				"date":"2017-12-5 16:30"
+			},
+			{
+				"componyId":"bd001",
+				"id":"2",
+				"salary":"12K-18K",
+				"position":"web前端开发工程师",
+				"city":"广州",
+				"date":"2017-12-10 10:21"
+			},
+			{
+				"componyId":"bd001",
+				"id":"3",
+				"salary":"10K-15K",
+				"position":"web前端开发",
+				"city":"深圳",
+				"date":"2017-12-10 10:21"
+			},
+			{
+				"componyId":"bd001",
+				"id":"4",
+				"salary":"8K-12K",
+				"position":"软件测试工程师",
+				"city":"上海",
+				"date":"2017-12-02 15:11"
+			},
+			{
+				"componyId":"bd001",
+				"id":"5",
+				"salary":"6K-8K",
+				"position":"网络运维",
+				"city":"南京",
+				"date":"今天 8:20"
+			}
+		]
+	},
+	{
+		"componyImg":"../../image/compony2.jpg",
+		"componyId":"bd001",
+		"componyName":"西安博大软件",
+		"city":"西安",
+		"industry":"电子商务,移动互联网",
+		"componyScale":"200-500人",
+		"positionType":[
+			{"name":"技术","id":"1"},
+			{"name":"产品","id":"2"},
+			{"name":"设计","id":"3"},
+			{"name":"运营","id":"4"},
+			{"name":"市场与销售","id":"5"},
+			{"name":"软件测试","id":"6"},
+			{"name":"金融","id":"6"}
+		],
+		"positionList":[
+			{
+				"componyId":"bd001",
+				"id":"1",
+				"salary":"2K-4K",
+				"position":"校招-实习生",
+				"city":"西安",
+				"date":"2017-12-10 10:21"
+			},
+			{
+				"componyId":"bd001",
+				"id":"1",
+				"salary":"6K-8K",
+				"position":"Java软件开发工程师",
+				"city":"双休,工作地点广州",
+				"date":"2017-11-10 13:21"
+			},
+			{
+				"componyId":"bd001",
+				"id":"1",
+				"salary":"2K-4K",
+				"position":"Java开发工程师",
+				"city":"北京",
+				"date":"2017-12-5 16:30"
+			},
+			{
+				"componyId":"bd001",
+				"id":"2",
+				"salary":"12K-18K",
+				"position":"web前端开发工程师",
+				"city":"广州",
+				"date":"2017-12-10 10:21"
+			},
+			{
+				"componyId":"bd001",
+				"id":"3",
+				"salary":"10K-15K",
+				"position":"web前端开发",
+				"city":"深圳",
+				"date":"2017-12-10 10:21"
+			},
+			{
+				"componyId":"bd001",
+				"id":"4",
+				"salary":"8K-12K",
+				"position":"软件测试工程师",
+				"city":"上海",
+				"date":"2017-12-02 15:11"
+			},
+			{
+				"componyId":"bd001",
+				"id":"5",
+				"salary":"6K-8K",
+				"position":"网络运维",
+				"city":"南京",
+				"date":"今天 8:20"
+			}
+		]
+	}
+]
